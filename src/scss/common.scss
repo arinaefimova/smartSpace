@@ -1,0 +1,12 @@
+.title {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.375;
+    &_center{
+        text-align: center;
+    }
+    @media (max-width:$mobile){
+         font-size: 30px; 
+    }
+}
